@@ -12,8 +12,13 @@ gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 5.0'
 
+# webscraping gems
+gem 'httparty', '~> 0.18.1'
+gem 'nokogiri'
+
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'pry'
 end
 
 group :development do
